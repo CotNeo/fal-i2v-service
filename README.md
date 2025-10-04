@@ -24,7 +24,7 @@
 ### 1. Repo indir
 
 ```bash
-git clone https://github.com/<your-username>/fal-i2v-service.git
+git clone https://github.com/cotneo/fal-i2v-service.git
 cd fal-i2v-service
 ```
 
@@ -153,7 +153,7 @@ image  = <dosya>
 
 ## 🛡️ Güvenlik Notları
 
-* **FAL_KEY** sadece backend’de kullanılmalı. Client’a asla sızdırma.
+* **FAL_KEY** gisadece backend’de kullanılmalı. Client’a asla sızdırma.
 * Webhook güvenliği için gizli token veya IP allowlist kullan.
 * Kullanıcı promptları sanitize edilmeli (ör. uygunsuz içerik filtreleme).
 * Dönen videoları kalıcı saklamak için kendi S3/GCS altyapına indir.
@@ -195,7 +195,7 @@ image  = <dosya>
 ### 1. Download the repo
 
 ```bash
-git clone https://github.com/<your-username>/fal-i2v-service.git
+git clone https://github.com/cotneo/fal-i2v-service.git
 cd fal-i2v-service
 ```
 
